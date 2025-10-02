@@ -12,16 +12,14 @@ def calculate_interest(principal, rate, time):
     return simple_interest
 
 # define the main function    
-def main():
-    principal = float(input("Enter the principal amount: "))
-    rate = float(input("Enter the rate of interest: "))
-    time = int(input("Enter the time in years: "))
+
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest: "))
+time = int(input("Enter the time in years: "))
 
 # define interest
-    interest = calculate_interest(principal, rate, time)
+interest = calculate_interest(principal, rate, time)
     
 # print the result    
-    print(f"The simple interest for ${principal:,.2f} at {rate}% over {time} years is ${interest:,.2f}.")
+print(f"The simple interest for ${principal:,.2f} at {rate}% over {time} years is ${interest:,.2f}.")
 
-# call the main function
-main()
