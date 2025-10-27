@@ -33,7 +33,7 @@ def main():
         ascii_input = int(input("Please enter a ASCII value between 32 and 127: "))
         if 32 <= ascii_input <= 127:
             result_char = chr(ascii_input)
-            print(f"The character for ASCII value {ascii_input} is '{result_char}'")
+            print(f"The character for ASCII value {ascii_input} is {result_char}")
         else: 
             print("The value is out of range. Please enter a value between 32 and 127.")
     except ValueError:
